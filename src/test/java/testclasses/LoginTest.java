@@ -12,7 +12,7 @@ public class LoginTest extends Listeners{
 	@Test(priority = 1)
 	public void loginToApp()
 	{
-		test.info("Entering credentials");
+		test.info("Entering credentials    .");
 		lp.loginWithCredentials();
 		
 		test.info("Credentials entered");
